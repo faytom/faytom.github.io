@@ -5,7 +5,7 @@ var xincrement = 0.01;
 var yincrement = 0.01;
 
 function setup() {
-  createCanvas(750, 750);
+  createCanvas(displayWidth, displayHeight);
   system = new ParticleSystem(createVector(width/2, 50));
 }
 
