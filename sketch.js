@@ -40,7 +40,7 @@ Particle.prototype.display = function() {
   stroke(200, this.lifespan);
   strokeWeight(2);
   fill(random(255),random(255),random(255), this.lifespan);
-  ellipse(this.position.x, this.position.y, 12, 12);
+  ellipse(this.position.x, this.position.y, this.lifespan*0.05, this.lifespan*0.05);
 };
 
 // Is the particle still useful?
