@@ -54,7 +54,7 @@ var ParticleSystem = function(position) {
 };
 
 ParticleSystem.prototype.addParticle = function() {
-  this.particles.push(new Particle(this.origin));
+  this.particles.push(new Particle(createVector(mouseX, mouseY)));
 };
 
 ParticleSystem.prototype.run = function() {
