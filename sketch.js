@@ -1,4 +1,8 @@
 var system;
+var xoff = 0.0;
+var yoff = 5000.0;
+var xincrement = 0.01;
+var yincrement = 0.01;
 
 function setup() {
   createCanvas(720, 400);
@@ -54,7 +58,11 @@ var ParticleSystem = function(position) {
 };
 
 ParticleSystem.prototype.addParticle = function() {
-  this.particles.push(new Particle(createVector(mouseX, mouseY)));
+	var n = noise(xoff)*width;
+	var m = noise(yoff)*height;
+	xoff += xincrement;
+	yoff += yincrement;
+  this.particles.push(new Particle(createVector(n, m)));
 };
 
 ParticleSystem.prototype.run = function() {
