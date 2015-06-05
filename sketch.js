@@ -10,9 +10,9 @@ var FA;
 var SO;
 var LA;
 var SI;
-/*
+
 function preload() {
-  DO = loadSound('data/C.mp3');
+  DO = loadSound('data/bgm.ogg');
   RE = loadSound('data/D.mp3');
   MI = loadSound('data/E.mp3');
   FA = loadSound('data/F.mp3');
@@ -20,7 +20,7 @@ function preload() {
   LA = loadSound('data/A.mp3');
   SI = loadSound('data/B.mp3');
 }
-*/
+
 function setup() {
   createCanvas(1024, 768);
   frameRate(40);
@@ -68,7 +68,7 @@ function keyPressed(){
     var m = movers[i];
     m.testCapture();
   }
-  //DO.play();
+  DO.play();
 }
 /*
 Array.prototype.clean = function(deleteValue) {
