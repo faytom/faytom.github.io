@@ -1,0 +1,92 @@
+
+canvas {
+	width: 100%;
+}
+.heading {
+	text-align: center;
+}
+
+
+.banner {
+	position: relative;
+	background: url(../data/fight-03.png) no-repeat;
+	background-color: #F7B52C;
+	background-size: 100% auto;
+}
+
+h2 span { 
+	position: absolute;
+   color: white; 
+   font: bold 15px/30px Helvetica, Sans-Serif; 
+   font-size: 25px;
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.3);
+   padding: 10px; 
+   left: 26%;
+   bottom: 0px;
+}
+
+
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.middleSection {
+	line-height: 50%;
+	font-size: 25px;
+	font-weight: bold;
+}
+.firstp {
+	padding-top: 20px;
+	border-top: 1px solid #d1d1d1;
+}
+.lastp {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+.rankingboard {
+	color: white;
+	background: url(../data/rankingboard.png) no-repeat;
+	background-position: center;
+	height: 100px;
+	text-indent: -9999;
+	background-size: auto 100%;
+	vertical-align: middle;
+	padding-bottom: 20px;
+}
+table {
+	width: 75%;
+	text-align: center;
+
+
+}
+td {
+	font-size: 30px;
+	height: 40px;
+	width: 25%;
+}
+
+button {
+	font-size: 25px;
+	color: black;
+}
+
+.rankingbanner{
+	color: white;
+	background: url(../data/rankingboard.png) no-repeat;
+	background-position: center;
+	height: 100px;
+	text-indent: -9999;
+	background-size: auto 100%;
+	vertical-align: middle;
+	padding-bottom: 20px;
+}
+
+
+
+
